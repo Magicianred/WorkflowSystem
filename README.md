@@ -1,5 +1,5 @@
 # WorkflowSystem
-A generic Workflow system
+A generic Workflow system (not completed... working in progress)
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
