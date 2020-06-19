@@ -3,7 +3,11 @@ A generic Workflow system
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
+## Diagrams  
 
+![Diagram](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/WorkflowSystem.png)  
+[drawio](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/WorkflowSystem.drawio)  
+[png](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/WorkflowSystem.png)
 
 
 
