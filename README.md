@@ -11,7 +11,6 @@ A generic Workflow system (not completed... working in progress)
 
 
 
-
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
 [![CC BY 4.0][cc-by-image]][cc-by]
@@ -20,3 +19,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
+
+
+
+## Some implementations
+
+- [Dotnet Core and Sql Server](https://github.com/Magicianred/dotnetcore-workflow-system)  
