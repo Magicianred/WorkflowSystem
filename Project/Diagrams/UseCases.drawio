@@ -1,6 +1,6 @@
-<mxfile host="9a583e76-751b-4c3a-92ef-9531d182903d" modified="2020-09-06T08:11:21.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.2 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="xx2C06--sTe_JZ3zVmCS" version="13.1.3">
+<mxfile host="9a583e76-751b-4c3a-92ef-9531d182903d" modified="2020-09-06T08:19:43.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.2 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="sbKBsCXV0waWBvEMNlW4" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="913" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="657" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="7" value="«actor»&lt;br&gt;Application" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
                     <mxGeometry x="640" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Workflow.Configure()&lt;br&gt;&lt;i&gt;Retrieve all workflows fot the applications&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                <mxCell id="8" value="Workflow.Configure()&lt;br&gt;&lt;i&gt;Retrieve all workflows for the applications&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
                     <mxGeometry x="255" y="180" width="250" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
@@ -50,7 +50,7 @@
                         <mxPoint x="215" y="335" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="Show/Details/Edit&lt;br&gt;Entity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+                <mxCell id="16" value="Change status to&lt;br&gt;Entity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
                     <mxGeometry x="-0.3164" y="-1" relative="1" as="geometry">
                         <mxPoint x="21.3" y="15.08" as="offset"/>
                     </mxGeometry>
