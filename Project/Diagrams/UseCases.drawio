@@ -1,0 +1,64 @@
+<mxfile host="9a583e76-751b-4c3a-92ef-9531d182903d" modified="2020-09-06T08:11:21.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.2 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="xx2C06--sTe_JZ3zVmCS" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="913" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="120" width="370" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="350" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="«actor»&lt;br&gt;Application" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Workflow.Configure()&lt;br&gt;&lt;i&gt;Retrieve all workflows fot the applications&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="180" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="340" as="sourcePoint"/>
+                        <mxPoint x="460" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Configure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
+                    <mxGeometry x="0.3766" y="1" relative="1" as="geometry">
+                        <mxPoint x="43.15" y="20.599999999999998" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Workflow System - Use Case" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="130" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Workflow.GetActualStateEntity(idWorkflow,&amp;nbsp;idEntity)&lt;br&gt;&lt;i&gt;Actual state of the entity&lt;/i&gt;&lt;br&gt;&lt;br&gt;Workflow.GetNextStatusesEntity(idWorkflow, idStatus)&lt;br&gt;Workflow.GetNextStatusesEntity(idWorkflow, idStatus, userRoleIds = null)&lt;br&gt;&lt;i&gt;Retrieve nextStatus - filter by roles of the user, before or later - with Requirements for each statuses&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="260" width="320" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="12">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="340" as="sourcePoint"/>
+                        <mxPoint x="500" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Show/Details/Edit&lt;br&gt;Entity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.3164" y="-1" relative="1" as="geometry">
+                        <mxPoint x="19.830000000000002" y="-12.090000000000002" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="17">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="55" y="170" as="sourcePoint"/>
+                        <mxPoint x="215" y="335" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Show/Details/Edit&lt;br&gt;Entity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+                    <mxGeometry x="-0.3164" y="-1" relative="1" as="geometry">
+                        <mxPoint x="21.3" y="15.08" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Workflow.SetStatus(idWorkflow, idEntity, idNewStatus)&lt;br&gt;&lt;i&gt;Set status for entity and active all Actions relatives&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="420" width="330" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
