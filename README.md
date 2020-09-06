@@ -5,6 +5,14 @@ A generic Workflow system (not completed... working in progress)
 
 ## Diagrams  
 
+### Use cases
+
+![Diagram](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/UseCases.png)  
+[drawio](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/UseCases.drawio)  
+[png](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/UseCases.png)
+
+### Entities
+
 ![Diagram](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/WorkflowSystem.png)  
 [drawio](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/WorkflowSystem.drawio)  
 [png](https://github.com/Magicianred/WorkflowSystem/blob/develop/Project/Diagrams/WorkflowSystem.png)
